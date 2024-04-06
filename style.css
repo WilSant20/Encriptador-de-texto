@@ -1,0 +1,132 @@
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}*/
+body{
+    font-family: "Inter", sans-serif;
+    background: #f3f5fc;
+  
+}
+
+header{
+  padding: 10px;
+}
+
+.consola{
+  display: inline-block;
+  width: 60%;
+  align-items: center;
+}
+
+#textoUsuario{
+  background: none;
+  border: none;
+  margin: 10px 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.alertamensaje{
+  margin: 10px auto;
+  text-align: center;
+}
+
+.mensajeAlerta{
+  display: inline-block;
+  font-size: 16px;
+  color: #495057;
+  vertical-align: top;  
+}
+
+.botones{
+  width: 680px;
+  height: 67px;
+  margin: 0 auto;
+  }
+
+#botonEncriptar{
+  width: 320px;
+  height: 67px;
+  background: #0A3871;
+  color: #D8DFE8;
+  border: none;
+  border-radius: 24px;
+  padding: 24px;
+  gap: 8px;
+  margin: 10px 10px 10px 10px;
+}
+
+#botonEncriptar:hover{
+  background: #013D98;
+  color: #D8DFE8;
+  transition: 400ms;
+}
+
+#botonDesencriptar{
+  width: 320px;
+  height: 67px;
+  background: #D8DFE8;
+  color: #0A3871;
+  border: none;
+  border-radius: 24px;
+  padding: 24px;
+  gap: 8px;
+  margin: 10px 10px 10px 0;
+}
+
+#botonDesencriptar:hover{
+  background: #013D98;
+  color: #D8DFE8;
+  transition: 400ms;
+}
+
+.resultado{
+  background: #FFFFFF;
+  display: inline-block;
+  padding: 30px 0;
+  border-radius: 10px;
+  width: 35%;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.personaBuscando{
+  margin: 0 auto;
+}
+
+.tituloMensaje{
+  font-weight: bold;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.cuerpoMensaje{
+  font-size: 15px;
+  padding: 10px;
+}
+
+#botonCopiar{
+width: 320px;
+height: 67px;
+background: #0A3871;
+border: none;
+color: #FFFFFF;
+border-radius: 24px;
+padding: 24px;
+gap: 8px;
+margin: 10px 10px 10px 10px;
+}
+
+#botonCopiar:hover{
+  background: #013D98;
+  color: #D8DFE8;
+  transition: 400ms;
+}
+
